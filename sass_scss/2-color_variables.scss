@@ -1,16 +1,17 @@
-/* assigns the text color #6D6D6D to the html tags body and h2 */
-$txtcolor: #3D3D3D;
-$bgcolor: #6D6D6D;
+// Define the Sass variable for the text color
+$text-color: #3D3D3D;
+$background-color: #6d6d6d;
 
+// Apply the text color to the body and p tags
 body {
-    color: $txtcolor;
-    background-color: $bgcolor;
+  color: $text-color;
+  background-color: $background-color;
 }
 
 p {
-    color: $txtcolor;
+    color: $text-color;
 }
 
 h2 {
-    background-color: $bgcolor;
+    background-color: $background-color;
 }
